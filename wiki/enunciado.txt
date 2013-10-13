@@ -1,0 +1,63 @@
+# SPAI: EGit2
+## Descripción del proyecto
+Este proyecto consta de cuatro clases:
+* **NumeroEntero**, maneja números enteros, ofreciendo diversas funcionalidades
+* **Persona**, almacena el nombre y apellido, controlando el formato del mismo y mostrando diferentes representaciones
+* **ColeccionDecimales**, maneja una colección de valores decimales de tipo double
+* **Fraccion**, maneja fracciones matemáticas
+
+Se acompañan los test de las clases para la versión actual, pero se deberán cambiar para la nueva versión.
+
+*No olvidéis, si con tanto cambio se produce* **descontrol y pánico!!!** *enfocar un* **commit estable**, *hacer* **reset** *mediante el menú contextual y marcar* **Hard**
+
+## Primeros pasos
+Por esta vez, y ***sólo por esta vez!!!*** vamos a permitir que los roles hablen, sólo hasta que se haya montado el proyecto en un nuevo repositorio y conectado a Eclipse.
+
+1. Se sortean los `Programadores` de cada proyecto
+1. En el equipo del `Arquitecto`, se clonará el repositorio con el nombre de originEGit2 (https://github.com/miw-upm/EGit2.git) y se importará un proyecto Java del repositorio local
+1. Se creará un repositorio en la Web de GitHub, llamado **EGit2** con la cuenta del rol `Arquitecto`, incluir la lista de colaboradores
+1. Se añadirá al proyecto de Eclipse, el segundo repositorio (*origin*), se establecerán las llaves SSH y se registrarán en GitHub, y se realizará *Push*, para actualizar el repositorio *origin*
+1. Se eliminará el repositorio *originSpai* del proyecto de Eclipse
+1. Publicar en la plataforma de la *moodle.upm* los datos del proyecto en la BD GitHubs de la asignatura
+1. Desde el resto de los equipos de los `Programadores`, se clonaran este último repositorio. Recordar establecer las llaves SSH
+
+##### Ya podemos realizar los apartados, en silencio... **;-)**
+## Crecimiento del proyecto
+Presentamos una orientación de posibles cambios; se pueden realizar otros, pero cuidado!!! es responsabilidad del `Arquitecto` finalizar el proyecto **:-o**.
+#### NumeroEntero
+* Limitar los límites posibles: 0..100, -10..+10 ...
+* Los métodos *incrementar* y *decrementar* podrán aceptar un parámetro con la cantidad
+* Incluir el métodos *sumar*, *multiplicar*...
+
+#### Persona
+* Presentar el nombre en mayúsculas 
+* Incluir métodos con otras formas de presentar el nombre completo
+* Permitir nombres compuestos, separados por blancos y controlar las mayúsculas y minúsculas
+
+#### ColeccionDecimales
+* Incluir métodos como *menor*, *multiplicar*, *tamaño*, *media*...
+
+#### Fracciones
+* Incluir métodos como *isPropia*, *isImpropia*. Las fracciones propias son aquellas cuyo numerador es menor que el denominador, y las fracciones impropias el resto
+* Incluir el método *isEquivalente*. Dos fracciones son equivalentes cuando el producto de extremos es igual al producto de medios
+* Incluir métodos para comparar fracciones: *mayor*, *menor*
+* Incluir métodos para *sumar*, *restar*, *multiplicar* o *dividir* fracciones 
+
+## Organización de la ampliación del proyecto
+Cada `Programador` deberá cambiar un test en exclusiva (*NumeroEnteroTest*, *PersonaTest* y *ColeccionDecimalesTest*) y una clase en exclusiva (*NumeroEntero*, *Persona* y *ColeccionDecimales*) y la clase ***Fraccion*** deben participar **todos** en cambiar algún método.
+
+1. Deberán cambiarse los **test**
+1. Se deberán cambiar las clases y deberá ser un `Programador` diferente del que cambió los test, excepto **Fraccion**, que es compartida, se recomienda que su test lo realice el `Programador` mas experimentado.
+
+####Tickets
+Los tickets se publicarán con el título: **issuesXxx#n** (siendo **Xxx** un identificador: **Dev**: develop, **Bug**: bugs... y **n** un número correlativo) y una pequeña descripción del mismo, tendrán un enlace a una página **wiki**, con el mismo nombre, que lo describe con detalle. Deberán tener plazos temporales y estimaciones de tiempo (**1 unidad equivale a 5 minutos**). Cuando un `Programador` finalice incluirá el tiempo real utilizado.
+
+## Evaluación
+La nota de este ejercicio sólo se tendrá se tendrá en cuenta el rol de `Arquitecto`,
+y no olvidéis que queda todo registrado, con las cuentas de los integrantes...
+
+Si un `Programador` no cumple con sus obligaciones, el `Arquitecto` buscará alternativas entre el resto... 
+
+Será fundamental acabar el proyecto para obtener un 5, y el resto de la nota, se obtendrá viendo el desarrollo de equipo, teniendo en cuenta la dificultad del mismo, uso de las ramas, el uso de los tickets, de la wiki, la coordinación...
+
+### Suerte chic@s!!!
