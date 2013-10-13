@@ -20,14 +20,15 @@ realizando una página detallada por cada cambio en la wiki
 5. Dirigir al equipo de programación mediante el uso de tickets
 
 ## Programador
-Su función será realizar una query con sus tickets e intentar seguirlos *fielmente* y con la *rapidez* necesaria.
+Su función será realizar una query con sus tickets e intentar seguirlos *fielmente* y con la *rapidez* necesaria,
+y sin mala intención...  ;-).
 
 ## Documentación detallada
 Mirar en la [wiki][] del proyecto
 
 ## Licencia
-Máster de Ingeniería Web por la Universidad Politécnica de Madrid.
+**Máster de Ingeniería Web** por la **Universidad Politécnica de Madrid**.
 
-Jesús Bernal Bermúdez.
+*Jesús Bernal Bermúdez*.
 
 [wiki]:https://github.com/miw-upm/EGit/wiki
