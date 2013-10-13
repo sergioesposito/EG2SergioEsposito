@@ -32,4 +32,4 @@ Mirar en la [wiki][] del proyecto
 
 *Jesús Bernal Bermúdez*.
 
-[wiki]:https://github.com/miw-upm/EGit/wiki
+[wiki]:https://github.com/miw-upm/EGit2/wiki
