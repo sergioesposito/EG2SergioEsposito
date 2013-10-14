@@ -7,9 +7,9 @@ Cada alumno deberá realizar dos roles: `Arquitecto de software` y `Programador`
 Sólo existe una norma básica: esta `prohibido hablar entre los integrantes`, sólo se podrán comunicar vía tickets.
 
 ## Arquitecto de software
-Su función será coordinar y supervisar el software ha desarrollar.
+Se parte de un software ya desarrollado,
+y su función será coordinar y supervisar la modificación del mismo a traves de tickets y la wiki.
 Para ello, tendrá la colaboración de tres `Programadores`.
-Deberá planificar el desarrollo y lo llevará a cabo mediante la utilización de los tickets y la wiki.
 
 No podrá realizar ninguna modificación directa del software.
 
