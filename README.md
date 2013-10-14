@@ -9,7 +9,7 @@ Sólo existe una norma básica: esta `prohibido hablar entre los integrantes`, s
 ## Arquitecto de software
 Su función será coordinar y supervisar el software ha desarrollar.
 Para ello, tendrá la colaboración de tres `Programadores`.
-Deberá planificar el desarrollo y lo llevará a cabo mediante la utilización de los tickets y la wiki
+Deberá planificar el desarrollo y lo llevará a cabo mediante la utilización de los tickets y la wiki.
 
 No podrá realizar ninguna modificación directa del software.
 
