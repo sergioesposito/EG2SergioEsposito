@@ -22,8 +22,8 @@ Por esta vez, y ***sólo por esta vez!!!*** vamos a permitir que los roles hablen
 1. Desde el resto de los equipos de los `Programadores`, se clonaran este último repositorio. Recordar establecer las llaves SSH
 
 ##### Ya podemos realizar los apartados, en silencio... **;-)**
-## Crecimiento del proyecto
-Presentamos una orientación de posibles cambios; se pueden realizar otros, pero cuidado!!! es responsabilidad del `Arquitecto` finalizar el proyecto **:-o**.
+## Ampliación del proyecto
+Presentamos una orientación de posibles cambios, a elegir; se pueden realizar otros, pero cuidado!!! es responsabilidad del `Arquitecto` finalizar el proyecto **:-o**.
 #### NumeroEntero
 * Limitar los límites posibles: 0..100, -10..+10 ...
 * Los métodos *incrementar* y *decrementar* podrán aceptar un parámetro con la cantidad
@@ -44,7 +44,10 @@ Presentamos una orientación de posibles cambios; se pueden realizar otros, pero 
 * Incluir métodos para *sumar*, *restar*, *multiplicar* o *dividir* fracciones 
 
 ## Organización de la ampliación del proyecto
-Cada `Programador` deberá cambiar un test en exclusiva (*NumeroEnteroTest*, *PersonaTest* y *ColeccionDecimalesTest*) y una clase en exclusiva (*NumeroEntero*, *Persona* y *ColeccionDecimales*) y la clase ***Fraccion*** deben participar **todos** en cambiar algún método.
+####Toda la responsabilidad de la organización recae en el `Arquitecto`.
+Cada `Programador` deberá cambiar un test en exclusiva (*NumeroEnteroTest*, *PersonaTest* y *ColeccionDecimalesTest*) y una clase en exclusiva (*NumeroEntero*, *Persona* y *ColeccionDecimales*) y en la clase ***Fraccion*** deben participar **todos** en cambiar algún método. La asignación de cambio la realizará el `Arquitecto`.
+
+**Orden de cambios**:
 
 1. Deberán cambiarse los **test**
 1. Se deberán cambiar las clases y deberá ser un `Programador` diferente del que cambió los test, excepto **Fraccion**, que es compartida, se recomienda que su test lo realice el `Programador` mas experimentado.
@@ -56,7 +59,7 @@ Los tickets se publicarán con el título: **issuesXxx#n** (siendo **Xxx** un iden
 La nota de este ejercicio sólo se tendrá se tendrá en cuenta el rol de `Arquitecto`,
 y no olvidéis que queda todo registrado, con las cuentas de los integrantes...
 
-Si un `Programador` no cumple con sus obligaciones, el `Arquitecto` buscará alternativas entre el resto... 
+Si un `Programador` no cumple con sus obligaciones, el `Arquitecto` buscará alternativas entre el resto... pero podría acabar en una sanción al `Programador`.
 
 Será fundamental acabar el proyecto para obtener un 5, y el resto de la nota, se obtendrá viendo el desarrollo de equipo, teniendo en cuenta la dificultad del mismo, uso de las ramas, el uso de los tickets, de la wiki, la coordinación...
 
