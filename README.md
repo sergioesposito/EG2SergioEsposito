@@ -15,7 +15,7 @@ En primer lugar preparará el proyecto:
 1. Replicar este proyecto mediante su cuenta en GitHub
 2. Una vez sorteado los `programadores` (son tres), incluirlos en la lista de colaboradores del proyecto
 3. Publicar en la plataforma de la **moodle.upm** los datos del proyecto en la BD GitHubs de la asignatura
-4. Decidir que cambios se va a realizar y su asignación a los programadores,
+4. Decidir que cambios se van a realizar y su asignación a los programadores,
 realizando una página detallada por cada cambio en la wiki
 5. Dirigir al equipo de programación mediante el uso de tickets
 
