@@ -24,6 +24,6 @@ Mirar en la [wiki][] del proyecto
 ## Licencia
 **Máster de Ingeniería Web** por la **Universidad Politécnica de Madrid**.
 
-*¬copy;Jesús Bernal Bermúdez*.
+*&copy;Jesús Bernal Bermúdez*.
 
 [wiki]:https://github.com/miw-upm/EGit2/wiki
