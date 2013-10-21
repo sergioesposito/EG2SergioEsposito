@@ -1,66 +1,80 @@
 # SPAI: EGit2
 ## Descripción del proyecto
-Este proyecto consta de cuatro clases:
+Se parte de un proyecto ya desarrollado, y se pretende realizar una ampliación del mismo.
+
+En la actualidad, el proyecto consta de cuatro clases:
 * **NumeroEntero**, maneja números enteros, ofreciendo diversas funcionalidades
 * **Persona**, almacena el nombre y apellido, controlando el formato del mismo y mostrando diferentes representaciones
 * **ColeccionDecimales**, maneja una colección de valores decimales de tipo double
 * **Fraccion**, maneja fracciones matemáticas
 
-Se acompañan los test de las clases para la versión actual, pero se deberán cambiar para la nueva versión.
+Se acompañan los test de las clases, pero se deberán cambiar para la nueva versión.
 
-*No olvidéis, si con tanto cambio se produce* **descontrol y pánico!!!** *enfocar un* **commit estable**, *hacer* **reset** *mediante el menú contextual y marcar* **Hard**
+####Las posibles ampliaciones podrían ser las siguientes:####
 
-## Primeros pasos
-Por esta vez, y ***sólo por esta vez!!!*** vamos a permitir que los roles hablen, sólo hasta que se haya montado el proyecto en un nuevo repositorio y conectado a Eclipse.
-
-1. Se sortean los `Programadores` de cada proyecto
-1. En el equipo del `Arquitecto`, se clonará el repositorio con el nombre de originEGit2 (https://github.com/miw-upm/EGit2.git) y se importará un proyecto Java del repositorio local
-1. Se creará un repositorio en la Web de GitHub, llamado **EGit2** con la cuenta del rol `Arquitecto`, incluir la lista de colaboradores
-1. Se añadirá al proyecto de Eclipse, el segundo repositorio (*origin*), se establecerán las llaves SSH y se registrarán en GitHub, y se realizará *Push*, para actualizar el repositorio *origin*
-1. Se eliminará el repositorio *originSpai* del proyecto de Eclipse
-1. Publicar en la plataforma de la *moodle.upm* los datos del proyecto en la BD GitHubs de la asignatura
-1. Desde el resto de los equipos de los `Programadores`, se clonaran este último repositorio. Recordar establecer las llaves SSH
-
-##### Ya podemos realizar los apartados, en silencio... **;-)**
-## Ampliación del proyecto
-Presentamos una orientación de posibles cambios, a elegir; se pueden realizar otros, pero cuidado!!! es responsabilidad del `Arquitecto` finalizar el proyecto **:-o**.
-#### NumeroEntero
+##### NumeroEntero
 * Limitar los límites posibles: 0..100, -10..+10 ...
 * Los métodos *incrementar* y *decrementar* podrán aceptar un parámetro con la cantidad
 * Incluir el métodos *sumar*, *multiplicar*...
 
-#### Persona
+##### Persona
 * Presentar el nombre en mayúsculas 
 * Incluir métodos con otras formas de presentar el nombre completo
 * Permitir nombres compuestos, separados por blancos y controlar las mayúsculas y minúsculas
 
-#### ColeccionDecimales
+##### ColeccionDecimales
 * Incluir métodos como *menor*, *multiplicar*, *tamaño*, *media*...
 
-#### Fracciones
+##### Fracciones
 * Incluir métodos como *isPropia*, *isImpropia*. Las fracciones propias son aquellas cuyo numerador es menor que el denominador, y las fracciones impropias el resto
 * Incluir el método *isEquivalente*. Dos fracciones son equivalentes cuando el producto de extremos es igual al producto de medios
 * Incluir métodos para comparar fracciones: *mayor*, *menor*
-* Incluir métodos para *sumar*, *restar*, *multiplicar* o *dividir* fracciones 
+* Incluir métodos para *sumar*, *restar*, *multiplicar* o *dividir* fracciones
 
-## Organización de la ampliación del proyecto
-####Toda la responsabilidad de la organización recae en el `Arquitecto`.
-Cada `Programador` deberá cambiar un test en exclusiva (*NumeroEnteroTest*, *PersonaTest* y *ColeccionDecimalesTest*) y una clase en exclusiva (*NumeroEntero*, *Persona* y *ColeccionDecimales*) y en la clase ***Fraccion*** deben participar **todos** en cambiar algún método. La asignación de cambio la realizará el `Arquitecto`.
-
-**Orden de cambios**:
-
-1. Deberán cambiarse los **test**
-1. Se deberán cambiar las clases y deberá ser un `Programador` diferente del que cambió los test, excepto **Fraccion**, que es compartida, se recomienda que su test lo realice el `Programador` mas experimentado.
+Se pueden realizar otras, pero cuidado!!! es responsabilidad del `Arquitecto` finalizar la ampliación del proyecto **:-o**.
 
 ####Tickets
-Los tickets se publicarán con el título: **issuesXxx#n** (siendo **Xxx** un identificador: **Dev**: develop, **Bug**: bugs... y **n** un número correlativo) y una pequeña descripción del mismo, tendrán un enlace a una página **wiki**, con el mismo nombre, que lo describe con detalle. Deberán tener plazos temporales y estimaciones de tiempo (**1 unidad equivale a 5 minutos**). Cuando un `Programador` finalice incluirá el tiempo real utilizado.
+Los tickets se publicarán con el título: **issuesXxx#n** (siendo **Xxx** un identificador: **Dev**: develop, **Bug**: bugs... y **n** un número correlativo) y una pequeña descripción del mismo, tendrán un enlace a una página **wiki**, con el mismo nombre, que lo describe con detalle. Deberán tener plazos temporales y estimaciones de tiempo (**1 unidad equivale a 5 minutos**). Cuando un `Programador` finalice,  incluirá el tiempo real utilizado.
+
+*No olvidéis, si con tanto cambio se produce* **descontrol y pánico!!!** *enfocar un* **commit estable**, *hacer* **reset** *mediante el menú contextual y marcar* **Hard**
+
+## Pasos a seguir
+### Fase 1. Integrantes de los proyectos
+Sorteo para asignar a cada `Arquitecto` su equipo de tres `Programadores`
+### Fase 2. Preparar proyecto en el repositorio
+El `Arquitecto` deberá preparar una copia del proyecto en su cuenta de GitHub
+
+1. Clonará el repositorio (https://github.com/miw-upm/EGit2.git) en su cuenta, con el botón `Fork` de la Web de GitHub
+1. Le cambiará el nombre del repositorio copiado a ***EG2Arquitecto***
+1. Añadirá como colaboradores del proyecto a su la lista de `Programadores`
+1. Importará este proyecto en su equipo local, y le cambiará el nombre del proyecto (*Refactor>Rename*): ***EG2Arquitecto***
+1. Publicará en la plataforma de la ***moodle.upm*** los datos del proyecto, en el apartado GitHubs de la asignatura
+
+### Fase 3. Preparar proyectos en equipos locales
+Los `Programadores` importarán este proyecto en sus equipos. Recordar establecer las llaves SSH
+
+### Fase 4. Planificación de la ampliación por parte de `Arquitecto`
+El `Arquitecto` establecerá las ampliaciones que pretende acometer, y la distribución de tareas mediante tickets.
+Recordar que **no podrá realizar ninguna modificación directa del software**, pero si puede realizar tareas de preparación de ramas, fusiones, generaciones de Tags, generación del Jar...
+
+### Fase 5. Programar los test
+1. El `Arquitecto` mandará tickets a cada `Programador` para explicar las ampliaciones que se deben acometer, y el test asignado: *NumeroEnteroTest*, *PersonaTest*, *ColeccionDecimalesTest* y *FraccionTest*. Los programadores tendrán que realizar los test e incluir el método público en las clases.
+1. Los `Programadores` cerrarán los tickets cuando hayan finalizado
+
+### Fase 6. Programar las clases
+
+1. El `Arquitecto` mandará tickets para implementar las clases, el **programador que hace el test no puede implementar la clase**, excepto *Fraccion*, que se asignará un método a cada `Programador`
+1. El `Programador` realizará los tickets con agilidad y corrección. Una vez que termine, deberá cerrarlo indicando el tiempo  real ocupado
+
+### Fase 7. Comprobación final del proyecto
+1. EL `Arquitecto` comprobará el buen funcionamiento de la ampliación. Si tuviera errores, creará nuevos tickets.
+1. Finaliza la ampliación, creando una versión beta para publicar
 
 ## Evaluación
-La nota de este ejercicio sólo se tendrá se tendrá en cuenta el rol de `Arquitecto`,
-y no olvidéis que queda todo registrado, con las cuentas de los integrantes...
+La nota de este ejercicio sólo se tendrá en cuenta el rol de `Arquitecto`,
+y no olvidéis que queda todo registrado, con las cuentas de los integrantes.
+Si un `Programador` no cumple con sus obligaciones, el `Arquitecto` deberá buscar alternativas entre el resto del personal.
 
-Si un `Programador` no cumple con sus obligaciones, el `Arquitecto` buscará alternativas entre el resto... pero podría acabar en una sanción al `Programador`.
-
-Será fundamental acabar el proyecto para obtener un 5, y el resto de la nota, se obtendrá viendo el desarrollo de equipo, teniendo en cuenta la dificultad del mismo, uso de las ramas, el uso de los tickets, de la wiki, la coordinación...
+Será fundamental acabar el proyecto para obtener un 5, y el resto de la nota, se obtendrá viendo el desarrollo de equipo, teniendo en cuenta la dificultad del mismo, uso adecuado de las ramas, el uso de los tickets, de la wiki, la coordinación...
 
 ### Suerte chic@s!!!
