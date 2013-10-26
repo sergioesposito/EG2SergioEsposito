@@ -9,11 +9,14 @@ import spai.egit2.Fraccion;
 
 public class FraccionTest {
     private Fraccion fraccion;
+    private Fraccion fraccion2;
 
     @Before
     public void initObjects() {
         this.fraccion = new Fraccion(2, 3);
+        this.fraccion2 = new Fraccion(3, 2);
     }
+    
 
     @Test
     public void testcontructorIntInt() {
@@ -43,6 +46,22 @@ public class FraccionTest {
     @Test
     public void testDecimal() {
         assertEquals(2.0/3.0, fraccion.decimal(), 1e-10);
+    }
+    
+    @Test
+    public void testEsPropia() {
+        assertTrue(fraccion.esPropia());
+    }
+    
+    @Test
+    public void testEsImpropia() {
+        assertTrue(fraccion2.esImpropia());
+    }
+    
+    @Test
+    public void testToString() {
+        String cadena="2/3";
+        assertEquals(cadena,fraccion.toString());
     }
 
 }
