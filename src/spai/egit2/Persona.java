@@ -38,5 +38,11 @@ public class Persona {
     public String inicial() {
         return this.nombre.substring(0, 1) + ".";
     }
+    
+    public boolean mismoApellido(Persona p)
+    {
+        return false;
+    }
 
+    
 }
