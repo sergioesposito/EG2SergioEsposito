@@ -31,4 +31,7 @@ public class NumeroEntero {
         this.valor--;
     }
 
+    public boolean esNegativo() {
+    	return true;
+    }
 }
