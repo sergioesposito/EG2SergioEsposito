@@ -34,4 +34,8 @@ public class ColeccionDecimales {
         return mayor;
     }
 
+    public double menor() {
+        
+        return (Double) null;
+    }
 }
