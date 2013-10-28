@@ -32,6 +32,6 @@ public class NumeroEntero {
     }
 
     public boolean esNegativo() {
-    	return true;
+    	return (valor < 0) ? true : false;
     }
 }
