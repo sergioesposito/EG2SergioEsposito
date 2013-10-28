@@ -41,7 +41,15 @@ public class Persona {
     
     public boolean mismoApellido(Persona p)
     {
-        return false;
+    	boolean mismoapellido=false;
+    	
+        if(this.getApellido().toUpperCase().compareTo(p.getApellido().toUpperCase())==0)
+        	
+        	mismoapellido=true;
+        
+    	
+    	
+    	return mismoapellido;
     }
 
     
