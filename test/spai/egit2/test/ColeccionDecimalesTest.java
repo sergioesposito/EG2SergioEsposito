@@ -28,7 +28,7 @@ public class ColeccionDecimalesTest {
     
     @Test
     public void testMenor() {
-        assertEquals(1.2, this.numeros.mayor(), 1e-10);
+        assertEquals(1.2, this.numeros.menor(), 1e-10);
     }
     
 
