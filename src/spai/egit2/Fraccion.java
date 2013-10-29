@@ -68,7 +68,12 @@ public class Fraccion {
 	}
 
 	public boolean esPropia() {
-		return false;
+		boolean propia = false;
+
+		if(this.numerador<this.denominador)
+		 propia = true;
+
+		return propia;
 	}
 
 	public boolean esImpropia() {
